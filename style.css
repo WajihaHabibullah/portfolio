@@ -1,0 +1,177 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* color: #333; */
+    color: white;
+    scroll-behavior: smooth;
+    background-color: #a474b7;
+}
+
+/* Luxurious Color Palette */
+.page {
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1f1f1f;
+    border-bottom: 5px solid #a474b7; /* Soft purple border */
+}
+
+#page1 {
+    background-color: #2a2a2a;
+    height: 20vh;
+}
+
+.about{
+    height: 20vh;
+    width: 80vw;
+    margin-top: 10vh;
+}
+.page3 {
+    background-color: #1f1f1f;
+    align-content: center;
+    color: #fff;
+    height: 80vh;
+    /* width: 100vw; */
+    padding-left: 5vw; 
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    justify-content: space-evenly;
+    /* width: 99vw; */
+
+}
+.page3.1{
+    width: 100vw;
+}
+
+h1, h2 {
+    color: #a474b7;
+}
+
+h3 {
+    color: #d9b3e6;
+}
+
+.skill{
+    /* height: 20vh;
+    width: 20vw; */
+    /* background-color: bisque; */
+    padding-right: 1cm;
+    display: flex;
+    
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 2px solid #a474b7;
+}
+
+ul {
+    list-style: none;
+     /* padding-left: 1rem;  */
+    width: 80vw;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+}
+
+ul li::before {
+    content: "• ";
+    color: #d9b3e6; /* Light purple bullet points */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #a474b7;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.IS{
+    display: flex;
+    flex-direction: row;
+}
+.interest{
+    width: 30vw;
+    padding-top: 5vh;
+}
+.skills{
+    display: flex;
+    flex-direction:row;
+    width: 100vw;
+}
+.SS{
+    align-items: left;
+    width: 30vw;
+}
+
+.vision{
+    padding-right: 20vh; 
+    width: 1000vw;
+    height: 50vh;
+}
+.inspiration{
+    padding-left: 10vh;
+    width: 50vw;
+}
+.VI{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15vh;
+}
+.TS{
+    width: 20vw;
+}
+.SSTS{
+    display: flex;
+    flex-direction: row;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    justify-content: center;
+    align-items: center;
+    width: 34vw;
+    padding-bottom: 30px;
+}
+.GM{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    padding-top: 20px;
+}
+.footer{
+    padding-left: 5vw;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page4{
+    
+    border-top: 50px #a474b7;
+    background-color: #1f1f1f;
+    margin-top: 5px ;
+}
